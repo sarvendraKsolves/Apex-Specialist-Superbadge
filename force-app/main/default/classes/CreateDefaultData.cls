@@ -14,7 +14,7 @@ public with sharing class CreateDefaultData{
         List<Product2> equipment = createEquipment();
         List<Case> maintenanceRequest = createMaintenanceRequest(vehicles);
         List<Equipment_Maintenance_Item__c> joinRecords = createJoinRecords(equipment, maintenanceRequest);
-
+// git test
         updateCustomSetting(true);
     }
 
